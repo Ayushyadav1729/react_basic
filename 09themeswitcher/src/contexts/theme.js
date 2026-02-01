@@ -8,7 +8,7 @@ export const ThemeContext = createContext({
 
 export const ThemeProvider = ThemeContext.Provider
 
-//hook bana liya
+//custom hook bana liya
 export default function useTheme(){
     return useContext(ThemeContext)
 }
