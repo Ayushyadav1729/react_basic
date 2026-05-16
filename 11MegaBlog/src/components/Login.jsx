@@ -10,7 +10,7 @@ import { useState } from "react";
 function Login() {
     const navigate= useNavigate()
     const dispatch = useDispatch()
-    const {register, handleSubmite} = useForm()
+    const {register, handleSubmit} = useForm()
     const [error, setError] = useState("")
 
     const login = async(data) => {
